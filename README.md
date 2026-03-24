@@ -7,3 +7,5 @@ Problema 1: Se o serviço de Produtos cair, o Estoque para de funcionar.
 Problema 2 (Acoplamento): O Estoque precisa saber a URL exata do outro serviço.
 
 Problema 3: Se o Produtos ficar lento, o Estoque trava esperando a resposta, gerando um efeito cascata.
+
+Problema 4:  O tempo de resposta total é a soma do tempo dos dois serviços + o atraso da rede, causando latência acumulada.
