@@ -1,3 +1,5 @@
+Lais Gabriele PT3025993
+
 Durante a execução da atividade, o ambiente local (Docker Desktop/WSL2) apresentou falha crítica de inicialização ("Docker Desktop is unable to start"), impossibilitando a captura de prints da execução em container. No entanto, a lógica de comunicação e tratamento de erros foi implementada conforme os requisitos.
 
 Nesse tipo de implementação, quais problemas podem ocorrer?
