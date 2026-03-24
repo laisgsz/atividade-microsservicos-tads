@@ -1,0 +1,12 @@
+services:
+  produtos:
+    build: ./servico-produtos
+    ports:
+      - "8001:8001"
+
+  estoque:
+    build: ./servico-estoque
+    ports:
+      - "8000:8000"
+    depends_on:
+      - produtos
